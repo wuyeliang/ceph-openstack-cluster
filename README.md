@@ -38,6 +38,10 @@ controller节点和各个计算节点上先部署ceph集群（luminous），控�
 ```
 
 
+相关视频
+```
+https://selfservicecloud.cn/nextcloud/index.php/s/yPdde86vNI3OjLC
+```
 
 
 
