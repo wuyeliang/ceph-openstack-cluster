@@ -1,4 +1,13 @@
+前提条件
+
+部署openstack集群之前需要先部署ceph集群，具体参见
+```
+https://github.com/wuyeliang/auto-deploy-ceph-cluster
+```
+
+
 网络拓扑
+controller节点和各个计算节点上先部署ceph集群（luminous），控制节点上运行相关管理服务，计算节点既是计算节点也是块存储节点，安装过程中自动配置glance、nova、cinder的ceph
 ```
      ------------+---------------------------+---------------------------+------------
                  |                           |                           |
@@ -27,6 +36,10 @@
 ```
 ./main.sh
 ```
+
+
+
+
 
 
 
