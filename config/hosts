@@ -1,0 +1,8 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+172.16.100.80 controller
+172.16.100.81 computer
+172.16.100.82 block
+172.16.100.83 storage1
+172.16.100.84 storage2
+172.16.100.85 storage3
